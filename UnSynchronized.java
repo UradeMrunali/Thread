@@ -2,7 +2,6 @@ class Reserve implements Runnable{
 	//available berths are 1 
 	int available = 1;
 	int wanted;
-	
 	 Reserve(int i){
 		 wanted = i;
 	}
