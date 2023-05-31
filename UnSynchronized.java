@@ -1,5 +1,3 @@
-
-
 class Reserve implements Runnable{
 	//available berths are 1 
 	int available = 1;
