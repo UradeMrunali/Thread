@@ -18,7 +18,8 @@ class Reserve implements Runnable{
 				//update the no of available berths
 				available = available - wanted;
 			}catch(InterruptedException ie){}
-		}else
+		}
+		else
 			System.out.println("No Berth are Available");
 	}
 }
