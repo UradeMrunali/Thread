@@ -22,8 +22,6 @@ class Reserve implements Runnable{
 			System.out.println("No Berth are Available");
 	}
 }
-
-
 public class UnSynchronized {
 	public static void main(String args[]){
 		Reserve obj= new Reserve(1);
